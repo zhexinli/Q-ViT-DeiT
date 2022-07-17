@@ -89,4 +89,4 @@ python -m torch.distributed.launch \
 Here in Q-ViT, the arguments wbits and abits determines the initial bit-widths for weights and activations.
 
 ### Desired Results
-![image](https://user-images.githubusercontent.com/44015820/179419597-ceec8507-105d-4eb1-a17b-e06936e35949.png)
+![image](https://user-images.githubusercontent.com/44015820/179419702-6426a319-94c8-4d83-9bab-51892c0b2dd3.png)
