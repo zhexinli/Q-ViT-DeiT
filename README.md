@@ -26,7 +26,7 @@ python -m torch.distributed.launch \
 --output_dir path/to/float
 ```
 
-#### Using unifrom_train.sh to train uniform quantized qat model
+#### Using unifrom_train.sh to train uniform-quantized qat model
 
 For example:
 
@@ -52,7 +52,7 @@ python -m torch.distributed.launch \
 --finetune path/to/float
 ```
 
-#### Using mixed_train.sh to train q-vit
+#### Using mixed_train.sh to train Q-ViT
 
 For example:
 
@@ -86,4 +86,4 @@ python -m torch.distributed.launch \
 --output_dir path/to/mixed \
 --finetune path/to/float
 ```
-Here, the arguments wbits and abits determines the initial bit-widths for weights and activations.
+Here in Q-ViT, the arguments wbits and abits determines the initial bit-widths for weights and activations.
