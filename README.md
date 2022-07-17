@@ -87,3 +87,6 @@ python -m torch.distributed.launch \
 --finetune path/to/float
 ```
 Here in Q-ViT, the arguments wbits and abits determines the initial bit-widths for weights and activations.
+
+### Desired Results
+![image](https://user-images.githubusercontent.com/44015820/179419597-ceec8507-105d-4eb1-a17b-e06936e35949.png)
