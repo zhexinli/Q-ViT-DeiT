@@ -1,5 +1,5 @@
 # Q-ViT-DeiT
-DeiT implementation for Q-ViT.
+DeiT implementation for Q-ViT[https://arxiv.org/abs/2201.07703].
 
 This code is built upon DeiT[https://github.com/facebookresearch/deit] and hustzxd's implementation[https://github.com/hustzxd/LSQuantization] for the LSQ paper.
 
